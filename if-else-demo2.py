@@ -67,3 +67,41 @@
 #     print (f"2.sayı :{b} en büyük sayıdır ")
 # else : 
 #     print(f"3.sayı :{c} en büyük sayıdır. ")
+
+#5- Kullanıcıdan 2 vize (%60) ve final (%40) notunu alıp ortalama hesaplayınız.
+#   Eğer ortalama 50 ve üstündeyse geçti değilse kaldı. 
+#   a) ortalama 50 olsa bile final notu en az 50 olmalıdır.
+#   b) Finalden 70 alındıgında ortalamanın önemi kalmaz.
+
+# vize1 = float(input("1.vize :"))
+# vize2 = float(input("2.vize :"))
+# final = float(input("final :"))
+
+# ortalama =  ((( (vize2+vize1)/2)*0.6 ) + (final)*0.4 )
+
+# if ((ortalama >= 50 ) and (final >= 50) ) or (final >= 70):
+#     print(f"Ortalaması : {ortalama} , Başarı durumu : Geçti")
+# else :
+#     print(f"Ortalaması : {ortalama} ,Başarı durumu : Kaldı")
+
+# 6 kişi kilo
+
+ad = input("İsim :")
+kilo = float(input("Kilonuz :"))
+boy = float(input("boyunuzu metre cinsninden giriniz : "),)
+
+indeks = (kilo / (boy**2))
+# zayıf = ( indeks > 0) and (indeks < 18.4)
+# normal = (indeks >= 18.4) and (indeks < 24.9)
+# kilolu = (indeks >= 25) and (indeks < 29.9)
+# sisko = (indeks >= 30) and (indeks < 34.9)
+
+if ( indeks > 0) and (indeks < 18.4):
+    print(f" {ad} isimli bireyin kilosu :{kilo} , boyu : {boy} ve zayıftır")
+elif (indeks >= 18.4) and (indeks < 24.9):
+    print(f" {ad} isimli bireyin kilosu :{kilo} , boyu : {boy} ve normaldir")
+elif (indeks >= 25) and (indeks < 29.9):
+    print(f" {ad} isimli bireyin kilosu :{kilo} , boyu : {boy} ve kiloludur")
+elif (indeks >= 30) and (indeks < 34.9):
+    print(f" {ad} isimli bireyin kilosu :{kilo} , boyu : {boy} ve obezdir")
+    
