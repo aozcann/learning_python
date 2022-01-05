@@ -48,7 +48,7 @@ x = datetime.datetime.now()
 print(x)
 print(cıkıs)
 y = (x - cıkıs)
-print(y)
+print(y.days)
 if y <= datetime.timedelta(days= 365) :
     print("Aracın 1. bakım yılı")
 elif y <= datetime.timedelta(days= 365*2) :
