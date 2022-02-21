@@ -1,0 +1,7 @@
+ahmet özcan:80,90,100
+sevil toprak:100,90,90
+hasan gül:20,30,40
+birtuğ berk:60,70,80
+sena delil:75,80,85
+ayşe ilknur:60,70,78
+hasan hüseyin:50,66,80
